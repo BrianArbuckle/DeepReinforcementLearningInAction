@@ -7,7 +7,7 @@ import torch
 from torch import nn
 import torch.nn.functional as F
 import numpy as np
-import gym
+import gymnasium as gym
 
 class Agent(object):
     def __init__(self, env, state_space, action_space, weights=[], max_eps_length=500, trials=5):
